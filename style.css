@@ -11,8 +11,9 @@
     display: block;
     margin: 20px auto;
     max-width: 100%;
-    opacity: 0.5;
     transition: transform 0.1s ease;
+    position: absolute;
+    z-index: -5;
   }
 
 #box {
